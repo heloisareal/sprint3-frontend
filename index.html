@@ -5,27 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend - Sprint 3</title>
 
+    <!-- Link para os ícones -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <!-- Link para o CSS -->
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/responsivo.css">
+
+    <!-- LINK FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- INÍCIO DO HEADER -->
     <header>
         <div class="cabecalho">
-            <h1>
-                <img class="logo" src="./images/home/logo-home.png" alt="">
-            </h1>
-            <ul>
+            <div>
+                <img class="logo-home" src="./images/home/logo-home.png" alt="">
+            </div>
+            <ul class="opcoes">
                 <li>Home</li>
                 <li>Quizzes</li>
                 <li>Comunidade</li>
             </ul>
-            <div class="navbar">
-                <input type="text">
-                <!-- Adicionar Ícone -->
-            </div>
+            <form action="">
+                <div class="search">
+                    <input type="text"></input>
+                    <!-- Adicionar Ícone -->
+                    <button type="submit">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </button>
+                    <span class="material-symbols-outlined perfil">
+                        account_circle
+                    </span>
+                </div>
+            </form>
         </div>
     </header>
+    <!-- FINAL DO HEADER -->
 
+    <!-- INÍCIO DA MAIN -->
     
+    <!-- FINAL DA MAIN -->
+    <main>
+        <div class="container">
+            <div class="objetivo">
+                <h1>Conheça os Quizzes da Fórmula E e viva uma jornada</h1>
+            </div>
+            <div class="celular">
+                <img src="./images/home/celular-home.png" alt="">
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
