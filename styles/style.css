@@ -1,0 +1,61 @@
+.logo{
+    width: 7rem !important;
+}
+
+.custom-text {
+    width: 70% !important;
+    font-weight: bold;
+}
+
+.bg-custom {
+    position: relative;
+    background-image: url('/images/home/fundo1.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    width: 100%;
+    height: 100%;
+}
+
+.bg-custom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 1;
+}
+
+.custom-text, .btn {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-noticia {
+    position: relative;
+    background-image: url('/images/home/img-noticias.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    width: 100%;
+    height: 50%; /* Ajuste a altura conforme necessário */
+}
+
+.bg-noticia::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ajuste a altura conforme necessário */
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    z-index: 1;
+}
+
+.circuito{
+    width: 70% !important;
+    font-weight: bold;
+}
+
