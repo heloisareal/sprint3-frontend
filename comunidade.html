@@ -13,7 +13,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
+<div>
   <!-- INÍCIO HEADER -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -63,65 +63,131 @@
   <!-- FIM HEADER -->
 
   <!-- CONTEÚDO COMUNIDADE -->
-  <div class="container mt-5">
-    <div class="row align-items-center">
-      <div class="col-12 col-md-4 text-center">
-        <img src="path/to/profile-image.jpg" alt="Imagem de Perfil" class="img-fluid rounded-circle">
+  <div class="vh-100"> 
+    <div class="container mt-5">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-4 text-center">
+          <img src="path/to/profile-image.jpg" alt="Imagem de Perfil" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-12 col-md-8">
+          <h1 class="display-4">Nome do Usuário</h1>
+          <p class="lead">Descrição breve do usuário. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <p class="fw-bold">Acúmulo de Pontos: 12345</p>
+          <button class="btn btn-outline-success mt-3">Ação do Usuário</button>
+        </div>
       </div>
-      <div class="col-12 col-md-8">
-        <h1 class="display-4">Nome do Usuário</h1>
-        <p class="lead">Descrição breve do usuário. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <p class="fw-bold">Acúmulo de Pontos: 12345</p>
-        <button class="btn btn-outline-success mt-3">Ação do Usuário</button>
+    </div>
+
+    <!-- SEÇÃO DE CARDS -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="path/to/image1.jpg" class="card-img-top" alt="Imagem 1">
+            <div class="card-body">
+              <h5 class="card-title">Título do Card 1</h5>
+              <p class="card-text">Descrição breve do card 1.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="path/to/image2.jpg" class="card-img-top" alt="Imagem 2">
+            <div class="card-body">
+              <h5 class="card-title">Título do Card 2</h5>
+              <p class="card-text">Descrição breve do card 2.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="path/to/image3.jpg" class="card-img-top" alt="Imagem 3">
+            <div class="card-body">
+              <h5 class="card-title">Título do Card 3</h5>
+              <p class="card-text">Descrição breve do card 3.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="path/to/image4.jpg" class="card-img-top" alt="Imagem 4">
+            <div class="card-body">
+              <h5 class="card-title">Título do Card 4</h5>
+              <p class="card-text">Descrição breve do card 4.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- SEÇÃO DE CARDS -->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-3 mb-4">
-        <div class="card">
-          <img src="path/to/image1.jpg" class="card-img-top" alt="Imagem 1">
-          <div class="card-body">
-            <h5 class="card-title">Título do Card 1</h5>
-            <p class="card-text">Descrição breve do card 1.</p>
-            <a href="#" class="btn btn-primary">Saiba mais</a>
-          </div>
+   <!-- INÍCIO DO FOOTER -->
+   <footer class="bg-footer">
+    <div class="container">
+      <div class="row">
+        <!-- Primeira Coluna -->
+        <div
+          class="col-md-4 footer-col d-flex align-items-center justify-content-center no-underline"
+        >
+            <div class="row">
+              <div class= "text-center">
+                <ul class="list-unstyled mt-4 mb-4">
+                  <li><a href="./index.html" class="text-white link-underline link-underline-opacity-0">HOME</a></li>
+                  <li><a href="./quizzes.html" class="text-white link-underline link-underline-opacity-0">QUIZZES</a></li>
+                  <li><a href="./comunidade.html" class="text-white link-underline link-underline-opacity-0">COMUNIDADE</a></li>
+                </ul>
+              </div>
+            </div>
         </div>
+        <!-- Segunda Coluna -->
+        <div
+          class="col-md-4 footer-col text-center d-flex justify-content-center align-items-center mt-2"
+        >
+          <img
+            src="./images/footer/logo-azul.png"
+            class="img-fluid"
+            alt="Imagem"
+          />
+        </div>
+        <!-- Terceira Coluna -->
+        <div class="col-md-4 footer-col d-flex justify-content-center align-items-center mt-2">
+          <div class="row text-center">
+              <div class="col-3">
+                  <a href="#" class="text-decoration-none text-white">
+                      <i class="bi bi-youtube" style="font-size: 2rem;"></i>
+                  </a>
+              </div>
+              <div class="col-3">
+                  <a href="#" class="text-decoration-none text-white">
+                      <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+                  </a>
+              </div>
+              <div class="col-3">
+                  <a href="#" class="text-decoration-none text-white">
+                      <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+                  </a>
+              </div>
+              <div class="col-3">
+                  <a href="#" class="text-decoration-none text-white">
+                      <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+                  </a>
+              </div>
+              <div class="col-12 mt-3">
+                  <p class="text-white">Copyright © 2024 Connect-e</p>
+              </div>
+          </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4">
-        <div class="card">
-          <img src="path/to/image2.jpg" class="card-img-top" alt="Imagem 2">
-          <div class="card-body">
-            <h5 class="card-title">Título do Card 2</h5>
-            <p class="card-text">Descrição breve do card 2.</p>
-            <a href="#" class="btn btn-primary">Saiba mais</a>
-          </div>
-        </div>
+      
       </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4">
-        <div class="card">
-          <img src="path/to/image3.jpg" class="card-img-top" alt="Imagem 3">
-          <div class="card-body">
-            <h5 class="card-title">Título do Card 3</h5>
-            <p class="card-text">Descrição breve do card 3.</p>
-            <a href="#" class="btn btn-primary">Saiba mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3 mb-4">
-        <div class="card">
-          <img src="path/to/image4.jpg" class="card-img-top" alt="Imagem 4">
-          <div class="card-body">
-            <h5 class="card-title">Título do Card 4</h5>
-            <p class="card-text">Descrição breve do card 4.</p>
-            <a href="#" class="btn btn-primary">Saiba mais</a>
-          </div>
-        </div>
+      
       </div>
     </div>
-  </div>
+  </footer>
+  <!-- FINAL DO FOOTER -->
 
   
 
